@@ -15,18 +15,23 @@ This repository is geared towards those who know little, if anything of Python, 
 
 #### BEGINNER PYTHON CONCEPTS
 * [Lesson 1: Getting Started with Python and Downloading an IDE](#lesson-1-getting-started-with-python)
-* __Lesson 2__: First Steps into the Language
+* [Lesson 2 : First Steps into the Language](#lesson-2-introduction-to-data-types-and-basic-syntax)
 
 #### INTERMEDIATE PYTHON CONCEPTS
 
 ## Lesson 1: Getting Started with Python
 
-The necessary (and truly only) starting point to your journey learning Python is to download the language! This step is actually a bit trickier than is looks depending on the computer you are looking to work on. For the IQVIA computer, there is no restriction on what you can or cannot download. However, for Sanofi you will need to request any software via the Sanofi AppStore. I'd imagine most of you will be using the Sanofi laptop for any data operations, so I'll focus on the applicable steps. If anybody is planning on following this tutorial on your IQVIA or personal computers please send me an email and I will guide you through the download process! 
+The necessary (and truly only) starting point to your journey learning Python is to download the language! This requires you to download both the language package itself, as well as an Integrated Development Environment (IDE) that allows you to create Python programs and run them.
 
-* __First__ navigate to the Sanofi AppStore and use the search box to find Microsoft VS Code. This is an IDE - Integrated Development Environment - for creating programs in Python, but more on that later. In the request box, put "Needed for IQVIA Integration" and wait for the email confirmation. Do the same for Python, search and request a download. Once both are downloaded, open it up!
+* __First__ navigate to [this link](https://code.visualstudio.com/) and download the applicable release of Microsoft Visual Studio Code. This is a lite IDE that includes many helpful things like a spellcheck, syntax suggestions, and other extentions developed by other folks that can make it easier to write and understand code. It will also allow us to create & run our Python programs. Follow the prompts to download the software and open it up once finished.
 
-* __Second__ once you have VS Code open, press CTRL+SHIFT+X to open the Extentions tab. This will show all of your installed language packages. To begin, search for Python using the top bar. Click on the first extention you see, authored by Microsoft, and Install. Once Python installs, you will need to restart VS Code to complete the installation. 
+![image](https://user-images.githubusercontent.com/30609431/192852731-b3a48fb2-4e87-4206-af3a-b240b261df6a.png)
 
-* __Third__ you will need to verify that Sanofi has installed Python on your machine. To do this, open the command prompt by navigating to the top bar of VS Code, hovering over the *Terminal* tab, and clicking *New Terminal*. Once this is done, you will see a command prompt terminal open at the bottom of the screen. Simply write the following query in the terminal: ```py -0``` This will show all versions of Python installed on your machine. 
+* __Once you have VS Code open__, the initial screen will look like this. Feel free to customize the theme to VS code and, if you'd like, create an account on the second bulletpoint to enable settings sync across different computers. Once you have finished setting up the IDE as you'd like, click "Mark All as Done" & press CTRL+SHIFT+X to open the Extentions tab. This will show all of the included language packages. To begin, search for Python using the top bar. Click on the first extention you see, authored by Microsoft, and Install. 
 
-* __Finally__ VS Code will prompt you at the top of the screen to select one as an interpreter to use for programming. Make sure to use the latest release. If you do not see this, you will get the pop up once we create our first Python program! Regardless, you have finished downloading Python and setting up your IDE for programming! The next lesson will focus on our first program, and the basics of Python syntax.
+![image](https://user-images.githubusercontent.com/30609431/192854424-732b2a02-202d-4445-809b-0dbbc83ad42e.png)
+
+* __Once Python installs__, you will see a Python specific welcome page. First, click on the prompt *Select a Python Interpreter*. This will select a version of Python that is installed on your machine & inform VS Code on how to compile the code. We will need to download Python in order to provide an interpreter. Follow [this link](https://www.python.org/downloads/) to dowload Python. __IMPORTANT__ it is critical that when you open the Python installer that you select *Add Python to PATH* before installing. Once you have followed the other prompts and Python has been installed, close the installer and restart VS Code. Once you have restarted the IDE, you should see that VS Code has automatically selected your installed version of Python as the interpreter. If this is not the case, click *Select Python Interpreter* and click on your preferred Python version to use. Regardless, you have finished downloading Python and setting up your IDE for programming! The next lesson will focus on our first program, and the basics of Python syntax.
+
+
+## Lesson 2: Introduction to Data Types and Basic Syntax
