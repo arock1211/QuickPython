@@ -35,3 +35,16 @@ The necessary (and truly only) starting point to your journey learning Python is
 
 
 ## Lesson 2: Introduction to Data Types and Basic Syntax
+
+Now that you have installed VS Code and Python onto your machine, it is time to create our first Python file. The way Python works, as opposed to Excel, is by creating an executible program file, denoted by the suffix *.py* rather than *.xlsx*. Once you have a program created, you will just execute the Python file and the program will run in the Python terminal.
+
+* __Creating a Python Folder__. Open up VS Code, and you should see a blank screen. On the left side, navigate to the *Explorer* module, which will allow you to open up Python development folders. We will need to create a Python folder on your computer to house all of your programs and necessary datasets. So using the File Explorer on your computer, navigate to My Documents and create a Python folder for this tutorial. Feel free to name it whatever you'd like. After creating the folder, in VS Code click Open Folder and click on your new Python folder. Select it and follow the VS Code prompts to set it up for Python development. After doing so, you should see a page similar to the one below, with your Python folder present in the file explorer.
+
+![image](https://user-images.githubusercontent.com/30609431/215582640-d77bae34-6d70-43dc-b65a-22c9230ee79b.png)
+
+* __Creating our first Python file__. After we have a Python folder set up find it in the explorer on VS Code and click the *New File* button alongside it. Name it *Lesson_2.py*. Adding the .py suffix will tell VS Code that we will be writing in Python, so the software will open up a Python terminal to execute the program in. To confirm that you have created a Python file, you should see the Python logo alongside the file name at the top of the screen. In order to confirm we have no issues, please navigate to the top right of the screen and click the play button to *Run Python File*. If everything is OK, you will see no errors in the Python terminal and your screen should look like this. 
+
+![image](https://user-images.githubusercontent.com/30609431/215584107-1c9b35a0-4bad-4762-ba85-83d412454371.png)
+
+* __Introduction to Data Types__. 
+
