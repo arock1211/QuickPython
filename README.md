@@ -15,7 +15,8 @@ This repository is geared towards those who know little, if anything of Python, 
 
 #### BEGINNER PYTHON CONCEPTS
 * [Lesson 1: Getting Started with Python and Downloading an IDE](#lesson-1-getting-started-with-python)
-* [Lesson 2 : First Steps into the Language](#lesson-2-introduction-to-data-types-and-basic-syntax)
+* [Lesson 2: First Steps into the Language](#lesson-2-introduction-to-data-types-and-basic-syntax)
+* [Lesson 3: Introduction to Lists and Functions](#lesson-3-introduction-to-lists-and-functions)  
 
 #### INTERMEDIATE PYTHON CONCEPTS
 
@@ -46,5 +47,15 @@ Now that you have installed VS Code and Python onto your machine, it is time to 
 
 ![image](https://user-images.githubusercontent.com/30609431/215584107-1c9b35a0-4bad-4762-ba85-83d412454371.png)
 
-* __Introduction to Data Types__. 
+* __Introduction to Data Types__. Before we get started coding, we must first understand the different data types we will encounter in Python. In Excel, these are seen at the tops of columns where you may designate the data as: General, Numeric, Date etc. These core types are also present in Python. 
 
+* Integer (`int` shorthand): This data type will cover whole numbers and associated mathematical functions. For example, if you wanted to perform the operation:
+`126 + 223`, the result `349` would be an integer. Please write the following line of code in your Python file: `print(type(349))` and run the program. Print is a function (more on that later), that will print the following code to the terminal. The type function will tell you what data type the enclosed code returns. In this case, you will see the terminal output `<class 'int'>`. This tells us that 349 is an integer, because it is numeric and a whole number (non-decimal). 
+
+* Float (`float`): Now what happens if we change the print statement to: `print(type(349.2))` and run the program? In the terminal it will return: `<class 'float'>`. Because 349.2 is a non-whole number. The float data type includes all integers with a decimal. This type is not present in Excel, but is necessary due to a complex computer science reason involving bits and how many bytes are allocated to the data type. For our purposes, just be aware that integers and floats are both numeric, but differ if the number is whole or not.
+
+* String (`str`): Moving away from numeric data, a string type is simply any text-based data enclosed by double quotation marks " ". In Excel, this would be stored as Text or often, just General. To illustrate this, we will change the print statement to `print(type("Hi!"))`. When you run this code, the terminal will output `<class 'str'>`. This can also work with integer data, for example if we use the prior statement `print(type("349"))` and enclose the `int` value with double quotes, this will convert the integer to a string, or text. This is useful if you have one column of data that is stored as a string and another containing integers that you want to compare. As we will see later, data operations often require the data to be in the same type. Another note, if you are thinking of converting a string to an integer, you cannot simply remove the double quotes. `print(type(Hi!))` will return a syntax error because text cannot be simply converted to a number. To avoid syntax errors when working with strings, make sure to always remember your double quotes!
+
+*  Boolean (`bool`): The final main data type we will look at here is Boolean data. This is something Excel does not have, but is very useful when it comes to logical comparisons. Simply, Boolean data is either `True` or `False`. For this reason, you can use this data for comparing different values. Or creatively in loops, which we will cover later, to stop a programmed loop if you reach a certain value or contstraint. Right now, type this in your Python file: `print(type(True))`. As you can see, although True and False look like text, they are not strings and we do not enclose them with double quotes. Doing so would simply convert the boolean to a string, `print(type("True"))`, which would not be useful for logical comparison. 
+
+## Lesson 3: Introduction to Lists and Functions
